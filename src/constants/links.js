@@ -1,3 +1,4 @@
+//don't confuse this links (custome made) with Link component from GATSBY
 import React from "react"
 import { Link } from "gatsby"
 const data = [
@@ -36,7 +37,8 @@ const tempLinks = data.map(link => {
   )
 })
 // I KNOW WE CAN COMBINE IT !!!!!
-
+//'styleClass' is passed as props.
+//page-links class is initially applied, but styleClass is applied additionally if passed in props. 
 export default ({ styleClass }) => {
   return (
     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
@@ -44,3 +46,6 @@ export default ({ styleClass }) => {
     </ul>
   )
 }
+//this can be imported into any other componenet by any name. like, PageLinks, or InternalLinks etc.
+//line 44 is like this
+//<ul className={`page-links styleClass}`}>, 2 classes applied, if propo (styleClass is passed.)
