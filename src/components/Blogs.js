@@ -7,8 +7,8 @@ export const Blogs = ({ blogs, title, showLink }) => {
     <section className="section">
       <Title title={title} />
       <div className="section-center blogs-center">
-        {blogs.map(blg => {
-          return <Blog key={blg.id} {...blg} />
+        {blogs.map(blog => {
+          return <Blog key={blog.id} {...blog} />
         })}
       </div>
       {showLink && (

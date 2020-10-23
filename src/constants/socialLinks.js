@@ -23,11 +23,11 @@ const data = [
     icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
     url: "https://dribbble.com/zameerulhassan/",
   },
-  {
-    id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.behance.net/",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
+  //   url: "https://www.behance.net/",
+  // },
   {
     id: 5,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,

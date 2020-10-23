@@ -143,6 +143,7 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
+
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
@@ -408,14 +409,14 @@ Hero
 /* underline added to globals */
 .hero {
   margin-top: -5rem;
-  padding-top: 5rem;
-  height: 100vh;
+  padding-top: 5.5rem;
+  height: 85vh;
   background: var(--clr-primary-10);
   position: relative;
 }
 
 .hero-center {
-  height: 100%;
+  height: 85%;
   display: grid;
   align-items: center;
 }
@@ -462,10 +463,10 @@ Hero
     grid-column: 1 / span 8;
   }
   .hero-img {
-    /* border-radius: 5%; */
+    border-radius: 50%;
     display: block;
     grid-row: 1/1;
-    grid-column: 9/-1;
+    grid-column: 11/-1;
   }
 }
 @media screen and (min-width: 1170px) {

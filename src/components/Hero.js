@@ -30,8 +30,16 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="undeline"></div>
-            <h1>I'm Zam</h1>
-            <h3>JAMSTACK Web Developer</h3>
+            <h1>I'm Zamir</h1>
+            <h3>FullStack Web Developer</h3>
+            <ul>
+            <li><strong>MERNSTACK</strong><i> (MongoDb, Express, React, Node.)</i></li>
+            <li><strong>JAMSTACK</strong> <i> (SSG, Headless-CMS's, NoSQL, Rest/GraphQL.)</i></li>
+            <li><strong>LAMPSTACK </strong><i> (Linux, Apache, MariaDb, PHP)</i> </li>
+            <li>JavaScript, C#, C++, Java</li>
+            <li>HTML/CSS/SASS/Bootstrap</li>
+            <li>Git, VS Code, </li>
+            </ul>
             <Link to="/contact" className="btn">Contact Me</Link>
             <SocialLinks />
           </div>
