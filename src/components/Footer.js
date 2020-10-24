@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <SocialLinks styleClass="footer-links"></SocialLinks>
       <h4>copyright&copy;{new Date().getFullYear()}
-        <span>Machuchi WebDev(Zam)</span>all rights reseved
+        <span> Machoochi WebDev </span>all rights reseved
       </h4>
     </div>
   </footer>
